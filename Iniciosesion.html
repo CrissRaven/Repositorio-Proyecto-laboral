@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto-practicas</title>
+    <!--CSS boostrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        body {
+            background: whitesmoke;
+            background: linear-gradient(to right, rgba(5, 86, 236, 0.877), rgb(207, 207, 209));
+        }
+        .bg {
+            background-image: url(Public/image/sede-plaza-oeste.png);
+            background-position: center ;
+        }
+        .form-control {
+            min-height: 3.125rem;
+            line-height: initial;
+        }
+    </style>
+</head>
+<body>
+    <div class="container w-80 bg-primary mt-5 rounded shadow align-self-center">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+
+            </div>
+            <div class="col bg-white p-5 rounded-end d-flex flex-column aligh-self-center">
+                <div class="text-center">
+                    <img src="Public/image/DuocPNG.png" width="50%" alt="DuocPNG">
+                </div>
+                <h1 class="fw-bold text-center py-2">Gestión de Practicas</h1>
+                <h2 class="fw-bold text-center py-2">Inicio de Sesión 🔒</h2>
+                <!---login-->
+                <form action="#">
+                    <div class="mb-4 fw-bold">
+                        <label for="Usuario" class="form-label">Usuario</label>
+                        <input type="name" class="form-control border-black" placeholder="Ingrese usuario" name="Usuario">
+                    </div>
+                    <div class="mb-4 fw-bold">
+                        <label for="Contraseña" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control border-black" placeholder="Ingrese Contraseña" name="contraseña">
+                    </div>
+                    <div class="mb-4 form-check fw-bold">
+                        <input type="checkbox" name="connected" class="form-check-input border-black">
+                        <label for="connected" class="form-check-label">Mantener conección</label>
+                    </div>
+                    <div class="d-grid ">
+                        <a type="submit" class="btn btn-primary w-100 border-black shadow" href="Gestión_coordinadores.html">Ingresar</a>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>   
+    <!-- JS boostrap-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
