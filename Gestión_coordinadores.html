@@ -9,7 +9,15 @@
     <!--CSS Stylepage-->
     <link rel="stylesheet" href="css/Stylepage.css">
     <!--DataTable-->
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/js/dataTables.js">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.css">
+    <!-- Font Awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
 </head>
 <body>
     <div class="container-fluid text-start">
@@ -24,9 +32,9 @@
             </div>
             <div class="col-2 align-self-center">
             </div>
-            <div class="col-2 align-self-center">
+            <div class="col-md-2 col-sm-2 col-lg-2 col-xl-2 align-self-center">
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <a type="button" class="btn btn-light border-black shadow fw-bold" href="Iniciosesion.html"> ➤ Desconectar</a>
+                    <a type="button" class="btn btn-light border-black shadow fw-bold align-items-center" href="Iniciosesion.html"> ➤ Desconectar</a>
                 </div>
                 <img src="Public/image/pngegg.png" class="rounded float-end" width="40%"  alt="perfilpng">
             </div>
@@ -65,16 +73,46 @@
     <div class="container-fluid text-center">
         <div class="row align-items-center">
             <div class="col aligh-self-start align-items-center">
-                <h5 class="mb-2 fw-bold">Tablero Gestión de Prácticas</h5>
+                <h5 class="mb-2 fw-bold display-6">Tablero Gestión de Prácticas</h5>
             </div>
-            <div class="col-2 d-grid d-md-flex justify-content-md-end">
+            <div class="col-md-2 col-sm-2 col-lg-2 col-xl-2 d-grid d-md-flex justify-content-md-end">
+                <a type="button" class="btn btn-info fw-bold shadow border-black" href="">📥 Descargar</a>
                 <input type="file" class="btn btn-warning fw-bold shadow border-black" placeholder="Importar Excel" name="Importar Excel"></input>
                 <a type="button" class="btn btn-success fw-bold shadow border-black" href="">🔔 Historial</a>
             </div>
         </div>
     </div>
-    
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <table id="datatable_users" class="table table-striped">
+                    <caption>
+                        DataTable.js Demo
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="centered">#</th>
+                            <th class="centered">Name</th>
+                            <th class="centered">Email</th>
+                            <th class="centered">City</th>
+                            <th class="centered">Company</th>
+                            <th class="centered">Status</th>
+                            <th class="centered">Options</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody_users"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
     <!-- JS boostrap-->
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--DataTable-->
+    <script src="https://cdn.datatables.net/2.1.8/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+    <!--Custom js-->
+    <script src="js/main.js"></script>
 </body>
 </html>
