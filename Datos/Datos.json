@@ -1,0 +1,302 @@
+[
+    {
+      "id": 1,
+      "semestre": "2023-1",
+      "name": "Sebastian Gonzales",
+      "username": "Bret",
+      "profesor": "Profesor 1",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Diurno",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+        "id": 2,
+        "semestre": "2023-2",
+        "name": "Cristian Higuera",
+        "username": "Bret",
+        "profesor": "Profesor 1",
+        "sede": "Valparaíso",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Diurno",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 3,
+        "semestre": "2024-1",
+        "name": "Rodrigo Cornejo",
+        "username": "Bret",
+        "profesor": "Profesor 2",
+        "sede": "Valparaíso",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Diurno",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 4,
+        "semestre": "2023-1",
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "profesor": "Profesor 2",
+        "sede": "Valparaíso",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Vespertino",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 5,
+        "semestre": "2023-2",
+        "name": "Arturo Muñoz",
+        "username": "Bret",
+        "profesor": "Profesor 2",
+        "sede": "Valparaíso",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Diurno",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 6,
+        "semestre": "2024-1",
+        "name": "Catalina Ferrada",
+        "username": "Bret",
+        "profesor": "Profesor 3",
+        "sede": "Valparaíso",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Diurno",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 7,
+        "semestre": "2023-2",
+        "name": "Andres Paredes",
+        "username": "Bret",
+        "profesor": "Profesor 3",
+        "sede": "Valparaíso",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Diurno",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 8,
+        "semestre": "2023-2",
+        "name": "Constanza Diaz",
+        "username": "Bret",
+        "profesor": "Profesor 4",
+        "sede": "Valparaíso",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Diurno",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 9,
+        "semestre": "2023-2",
+        "name": "Miguel Rios",
+        "username": "Bret",
+        "profesor": "Profesor 4",
+        "sede": "Valparaíso",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Verpertino",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 10,
+        "semestre": "2024-2",
+        "name": "Matias Contreras",
+        "username": "Bret",
+        "profesor": "Profesor 6",
+        "sede": "Valparaíso",
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+          "name": "Diurno",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        }
+    },
+    {
+      "id": 11,
+      "semestre": "2024-1",
+      "name": "Marcelo Espinoza",
+      "username": "Bret",
+      "profesor": "Profesor 8",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Vespertino",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 12,
+      "semestre": "2024-2",
+      "name": "Helen Jofre",
+      "username": "Bret",
+      "profesor": "Profesor 6",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Vespertino",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 13,
+      "semestre": "2024-2",
+      "name": "Jose Muñoz",
+      "username": "Bret",
+      "profesor": "Profesor 7",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Diurno",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 14,
+      "semestre": "2024-2",
+      "name": "Joaquin Rojas",
+      "username": "Bret",
+      "profesor": "Profesor 9",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Diurno",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 15,
+      "semestre": "2023-2",
+      "name": "Marrtin Silva",
+      "username": "Bret",
+      "profesor": "Profesor 5",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Vespertino",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 16,
+      "semestre": "2023-2",
+      "name": "Diana Carrasco",
+      "username": "Bret",
+      "profesor": "Profesor 3",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Diurno",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 17,
+      "semestre": "2024-2",
+      "name": "Emilio Carrasco",
+      "username": "Bret",
+      "profesor": "Profesor 2",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Diurno",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 18,
+      "semestre": "2024-1",
+      "name": "Benjamin Ojeda",
+      "username": "Bret",
+      "profesor": "Profesor 1",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Vespertino",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 19,
+      "semestre": "2024-1",
+      "name": "Gabriela Mansilla",
+      "username": "Bret",
+      "profesor": "Profesor 6",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Diurno",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 20,
+      "semestre": "2023-2",
+      "name": "Juan Carlos Caceres",
+      "username": "Bret",
+      "profesor": "Profesor 3",
+      "sede": "Valparaíso",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Diurno",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    }
+  ]

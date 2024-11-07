@@ -43,7 +43,7 @@ const initDataTable = async () => {
 
 const listUsers = async () => {
     try {
-        const response = await fetch("https://jsonplaceholder.typicode.com/users");
+        const response = await fetch("Datos/Datos.json");
         const users = await response.json();
 
         let content = ``;
@@ -51,14 +51,17 @@ const listUsers = async () => {
             content += `
                 <tr>
                     <td>${index + 1}</td>
+                    <td>${user.semestre}</td>
                     <td>${user.name}</td>
-                    <td>${user.email}</td>
-                    <td>${user.address.city}</td>
+                    <td>${user.profesor}</td>
+                    <td>${user.sede}</td>
                     <td>${user.company.name}</td>
                     <td><i class="fa-solid fa-check" style="color: green;"></i></td>
                     <td>
                         <button class="btn btn-sm btn-primary"><i class="fa-solid fa-pencil"></i></button>
                         <button class="btn btn-sm btn-danger"><i class="fa-solid fa-trash-can"></i></button>
+                        <button class="btn btn-sm btn-warning"><i class="fa-solid fa-lock"></i></button>
+                        <button class="btn btn-sm btn-success"><i class="fa-solid fa-unlock"></i></button>
                     </td>
                 </tr>`;
         });
